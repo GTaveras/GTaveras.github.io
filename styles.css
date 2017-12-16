@@ -1,0 +1,51 @@
+body {
+  background-image: url(pic-of-me.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1 {
+  color: ##003366;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+#shout {
+	font-weight: boulder;
+}
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    width:100%;
+    height: 4.5%;
+    background-color: black;
+    overflow: auto;
+    text-align: 
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: flex;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 22%;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+  }
