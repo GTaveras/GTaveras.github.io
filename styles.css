@@ -9,12 +9,13 @@ h1 {
   color: ##003366;
 }
 
-.italicize {
-  font-style: italic;
-}
-
 #shout {
 	font-weight: boulder;
+}
+
+.contact {
+  display: flex;
+
 }
 
   /* Add a black background color to the top navigation */
@@ -23,7 +24,7 @@ h1 {
     height: 4.5%;
     background-color: black;
     overflow: auto;
-    text-align: 
+    text-align:
 }
 
   /* Style the links inside the navigation bar */
